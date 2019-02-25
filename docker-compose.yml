@@ -1,0 +1,9 @@
+version: "2.1"
+services:
+  serverless:
+    image: dhutton/serverless:1.38.0
+    env_file: .env
+    volumes:
+      - ~/.aws:/home/node/.aws
+      - ~/.ssh:/home/node/.ssh
+      - .:/opt/app

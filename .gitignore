@@ -1,0 +1,8 @@
+.env*
+!.env.template
+!.env.example
+node_modules
+node_modules.zip
+.serverless
+package/
+.idea/
